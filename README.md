@@ -10,18 +10,24 @@ I WANT a codebase that follows accessibility standards
 SO THAT our own site is optimized for search engines
 ```
 
-## Acceptance Criteria
+## Method
 
-```
-GIVEN a webpage meets accessibility standards
-WHEN I view the source code
-THEN I find semantic HTML elements
-WHEN I view the structure of the HTML elements
-THEN I find that the elements follow a logical structure independent of styling and positioning
-WHEN I view the image elements
-THEN I find accessible alt attributes
-WHEN I view the heading attributes
-THEN they fall in sequential order
-WHEN I view the title element
-THEN I find a concise, descriptive title
-```
+When refactoring this web app I took a few passes through. First I passed through cleaning up the code and formatting, then I went through the CSS.
+
+When going through CSS I found and removed a few redundacies and condensed the selectors for efficiency.
+
+I then went through the document adding accessible alt tags. I had to convert a css background image to an inline <img> tag in order to add a tag, I had some difficulty with this as it required completely new css to make it sit in the webpage properly.
+
+I then went through and replaced all divs with semantic hmtl5 elements and updated CSS to reflect this.
+
+## Documentation
+
+### Deployed App
+https://goldenaries658.github.io/Week-01-HTML-Git-CSS-Homework/
+
+ 
+
+ 
+
+
+
